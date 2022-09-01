@@ -14,3 +14,6 @@ h2 {
 .blue {
   background-color: blue;
 }
+.container:focus {
+  border: 2px solid red;
+}
