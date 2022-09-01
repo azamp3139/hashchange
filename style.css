@@ -1,0 +1,16 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 1px solid black;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}

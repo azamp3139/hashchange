@@ -1,0 +1,33 @@
+<head>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./index.js" type="text/js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#test').html('<em>It works!</em>');
+      $('#test em').css({ color: '#0c0' });
+    });
+  </script>
+</head>
+<body>
+  <h1>Test</h1>
+  <p id="test"><strong style="color: #f00">It does not work</strong></p>
+  <div>
+    <a href="#">Link 1</a>
+    <a href="#nav">Link 2</a>
+    <button class="btn primary">Link 3</button>
+  </div>
+  <div>
+    <div class="container red"></div>
+    <div class="container blank"></div>
+    <div class="container blank"></div>
+    <div class="container blank"></div>
+    <div class="container blank"></div>
+    <div class="container blank"></div>
+    <div class="container blank"></div>
+    <div class="container blue" id="nav"></div>
+  </div>
+</body>
